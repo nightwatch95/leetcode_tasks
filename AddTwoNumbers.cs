@@ -7,6 +7,11 @@
  * }
  */
 
+
+/*
+This one needs improvements. The head of the result list isn't stored, so 0 is printed in the end.
+The main algorythm works fine.
+*/
 public class Solution {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2) {
         int temp = 0;
